@@ -1,4 +1,4 @@
-label_point = "Label", ";" ;
+label_point = "Label", ":" ;
 goto_label = "goto", ident, ";" ;
 program_name = ident;
 value_type = "longint", ident, { "," , ident } ;
