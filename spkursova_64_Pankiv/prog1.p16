@@ -1,0 +1,17 @@
+@@Prog1
+startprogram 
+startblok
+variable longint aaaaaaaaaaaa,bbbbbbbbbbbb,xxxxxxxxxxxx,yyyyyyyyyyyy;
+read aaaaaaaaaaaa;
+read bbbbbbbbbbbb;
+write aaaaaaaaaaaa add bbbbbbbbbbbb;
+write aaaaaaaaaaaa sub bbbbbbbbbbbb;
+write aaaaaaaaaaaa * bbbbbbbbbbbb;
+write aaaaaaaaaaaa / bbbbbbbbbbbb;
+write aaaaaaaaaaaa % bbbbbbbbbbbb;
+
+xxxxxxxxxxxx==>(aaaaaaaaaaaa sub bbbbbbbbbbbb) * 10 add (aaaaaaaaaaaa add bbbbbbbbbbbb) / 10;
+yyyyyyyyyyyy==>xxxxxxxxxxxx add (xxxxxxxxxxxx % 10);
+write xxxxxxxxxxxx;
+write yyyyyyyyyyyy;
+endblok
